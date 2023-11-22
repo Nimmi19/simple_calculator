@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
             this.theModel = theModel;
 // Tell the View that when ever the calculate button
 // is clicked to execute the actionPerformed method
-// in the CalculateListener inner class
+
             this.theView.addCalculateListener(new CalculateListener1());
             this.theView.subCalculateListener(new CalculateListener2());
             this.theView.mulCalculateListener(new CalculateListener3());
